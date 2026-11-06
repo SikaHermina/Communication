@@ -128,10 +128,13 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(
 .about-p{color:var(--gris);margin-bottom:16px}
 
 /* CONTACT */
-.contact{text-align:center;background:#FBF9FD;border-top:1px solid var(--trait)}
+.contact{text-align:center;background:#FBF9FD;border-top:1px solid var(--trait);padding:26px 0}
+.contact .wrap{display:flex;flex-direction:column;align-items:center;gap:12px}
+.contact .eyebrow{justify-content:center}
+.contact .eyebrow::before{display:none}
 .contact h2{margin-bottom:.4em}
 .contact p{color:var(--gris);max-width:36em;margin:0 auto 32px}
-.hero-cta.center{justify-content:center}
+.hero-cta.center{justify-content:center;margin:0}
 footer{border-top:1px solid var(--trait);padding:28px 0;font-size:.85rem;color:var(--gris)}
 footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 
@@ -385,7 +388,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
       <h2>Enchantée, moi c'est Sika</h2>
       <p class="about-p">Diplômée d'un MSc en Digital Communication &amp; Social Media (INSEEC Paris) et d'une licence de Lettres modernes (Rouen), je travaille à l'intersection de la communication, des réseaux sociaux et de la performance.</p>
       <p class="about-p">Certifications : Meta Social Media Marketing · Facebook Ads · Google Digital Marketing · Google Data Analytics · Anglais B2.</p>
-      <p class="about-p">Je suis disponible immédiatement et ouverte à tous les secteurs. J'ai déjà travaillé dans l'événementiel, la food, l'associatif et la santé.</p>
+      <p class="about-p">Je suis disponible immédiatement, en CDI ou en CDD, et ouverte à tous les secteurs. J'ai déjà travaillé dans l'événementiel, la food, l'associatif et la santé.</p>
       <div class="secteurs">
         <span class="tag">Événementiel</span>
         <span class="tag">Food</span>
@@ -399,13 +402,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 <!-- CONTACT -->
 <section class="contact" id="contact">
   <div class="wrap">
-    <span class="eyebrow" style="justify-content:center">Contact</span>
-    <h2>Parlons résultats.</h2>
-    <p>Je suis ouverte à des postes en communication digitale et en marketing digital.</p>
+    <span class="eyebrow">Contact</span>
     <div class="hero-cta center">
       <a class="btn" href="mailto:hcodjia@gmail.com" onclick="gtag('event','click_contact',{'method':'email'});">M'écrire</a>
       <a class="btn ghost" href="https://www.linkedin.com/in/sika-hermina-codjia" target="_blank" rel="noopener" onclick="gtag('event','click_contact',{'method':'linkedin'});">Mon LinkedIn</a>
-      <a class="btn ghost" href="portfolio-sika-hermina-codjia.pdf" target="_blank" rel="noopener" onclick="gtag('event','download_portfolio',{'file_name':'portfolio-pdf','source':'contact'});">Portfolio PDF</a>
     </div>
   </div>
 </section>
