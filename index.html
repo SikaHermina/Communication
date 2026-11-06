@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sika Hermina Codjia — Communication &amp; marketing digital orientés performance</title>
+<meta name="description" content="Portfolio de Sika Hermina Codjia : communication digitale et marketing digital orientés performance. Études de cas Orphéopolis, Salon du Fromage, Salon Gourmet Sélection, Vivoptim.">
+<meta property="og:title" content="Sika Hermina Codjia — Communication &amp; marketing digital orientés performance">
+<meta property="og:description" content="+5 000 abonnés en 12 mois, +157 % de croissance Instagram en organique, 4 500 leads visiteurs générés.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Outfit:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PWSEP5H26D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PWSEP5H26D');
+</script>
+
+<style>
+:root{
+  --encre:#2B1B3D;
+  --prune:#5A2A6E;
+  --mangue:#FFB100;
+  --corail:#E4517F;
+  --blanc:#FFFFFF;
+  --gris:#6E6880;
+  --trait:#E8E3EF;
+  --radius:14px;
+  --display:'Unbounded',sans-serif;
+  --body:'Outfit',sans-serif;
+  --mono:'IBM Plex Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--encre);background:var(--blanc);line-height:1.6;font-size:17px}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--mangue);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--prune);display:inline-flex;align-items:center;gap:.6em}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--mangue)}
+h1,h2,h3{font-family:var(--display);line-height:1.15;font-weight:700}
+h2{font-size:clamp(1.5rem,3.2vw,2.2rem);margin:.5em 0 1.2em}
+section{padding:88px 0}
+
+/* NAV */
+nav{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--trait);z-index:50}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:var(--display);font-weight:700;font-size:1.05rem;text-decoration:none}
+.logo span{color:var(--corail)}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{text-decoration:none;font-size:.92rem;font-weight:500;color:var(--gris)}
+.nav-links a:hover{color:var(--encre)}
+.btn{display:inline-block;background:var(--mangue);color:var(--encre);font-weight:600;text-decoration:none;padding:12px 24px;border-radius:999px;border:2px solid var(--encre);box-shadow:3px 3px 0 var(--encre);transition:transform .15s,box-shadow .15s;font-size:.95rem}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--encre)}
+.btn.ghost{background:var(--blanc)}
+.btn.sm{padding:9px 18px;font-size:.85rem;box-shadow:2px 2px 0 var(--encre)}
+
+/* HERO */
+.hero{padding:96px 0 72px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2rem,4.6vw,3.4rem);margin:18px 0 22px}
+.hero h1 em{font-style:normal;color:var(--corail);position:relative;white-space:nowrap}
+.hero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:.05em;height:.28em;background:var(--mangue);z-index:-1;border-radius:3px}
+.hero p.lead{font-size:1.12rem;color:var(--gris);max-width:34em;margin-bottom:32px}
+.hero-cta{display:flex;gap:16px;flex-wrap:wrap}
+.campagne{background:var(--encre);color:var(--blanc);border-radius:var(--radius);padding:28px;position:relative;transform:rotate(1.5deg)}
+.campagne::before{content:"CAMPAGNE EN COURS";position:absolute;top:-14px;left:22px;background:var(--mangue);color:var(--encre);font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.12em;padding:5px 12px;border-radius:6px;border:2px solid var(--encre)}
+.campagne h3{font-size:1rem;margin:10px 0 18px}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.kpi{border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:14px}
+.kpi b{display:block;font-family:var(--mono);font-size:1.5rem;color:var(--mangue)}
+.kpi span{font-size:.78rem;color:rgba(255,255,255,.75)}
+.dispo{margin-top:20px;display:flex;align-items:center;gap:10px;font-size:.85rem;color:rgba(255,255,255,.85)}
+.dot{width:9px;height:9px;border-radius:50%;background:#5AD68A;animation:pulse 1.8s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+/* EXPERTISES */
+.exp{background:#FBF9FD;border-top:1px solid var(--trait);border-bottom:1px solid var(--trait)}
+.exp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--blanc);border:1px solid var(--trait);border-radius:var(--radius);padding:24px;transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--corail);transform:translateY(-3px)}
+.card h3{font-size:.98rem;margin-bottom:10px}
+.card p{font-size:.9rem;color:var(--gris)}
+.pictos{font-size:1.4rem;margin-bottom:12px;display:block}
+.card.wide{grid-column:1/-1}
+.card.wide p{font-family:var(--mono);font-size:.82rem;line-height:2;color:var(--prune)}
+
+/* MÉTHODE */
+.methode{background:var(--encre);color:var(--blanc)}
+.methode .eyebrow{color:var(--mangue)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:step}
+.step{border:1px solid rgba(255,255,255,.18);border-radius:var(--radius);padding:24px;counter-increment:step}
+.step::before{content:counter(step,decimal-leading-zero);font-family:var(--mono);color:var(--mangue);font-size:.9rem;font-weight:600}
+.step h3{font-size:1rem;margin:12px 0 8px}
+.step p{font-size:.88rem;color:rgba(255,255,255,.8)}
+
+/* CAS */
+.cas article{border:2px solid var(--encre);border-radius:var(--radius);padding:36px;margin-bottom:36px;box-shadow:6px 6px 0 var(--trait)}
+.cas .meta{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+.tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:999px;border:1.5px solid var(--encre)}
+.tag.secteur{background:var(--corail);color:var(--blanc);border-color:var(--corail)}
+.cas h3{font-size:1.3rem;margin-bottom:22px}
+.odr{display:grid;grid-template-columns:1fr 1fr 1fr;gap:26px}
+.odr h4{font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--prune);margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--mangue)}
+.odr p,.odr li{font-size:.95rem;color:#4A4458}
+.odr ul{list-style:none}
+.odr li{padding-left:1.1em;position:relative;margin-bottom:6px}
+.odr li::before{content:"→";position:absolute;left:0;color:var(--corail)}
+.resultats{display:flex;gap:26px;flex-wrap:wrap}
+.res{min-width:110px}
+.res b{display:block;font-family:var(--mono);font-size:1.7rem;color:var(--encre)}
+.res span{font-size:.82rem;color:var(--gris)}
+.proof{font-family:var(--mono);font-size:.8rem;margin-top:16px;word-break:break-word}
+.proof a{color:var(--prune);border-bottom:1px solid var(--mangue);text-decoration:none}
+.lecon{margin-top:22px;background:#FFF6DE;border-left:4px solid var(--mangue);padding:14px 18px;border-radius:0 10px 10px 0;font-size:.95rem}
+
+/* À PROPOS */
+.apropos-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.monogram{display:flex;align-items:center;justify-content:center;background:var(--prune);color:var(--mangue);font-family:var(--display);font-size:clamp(3rem,8vw,5rem);font-weight:700;letter-spacing:.04em}
+.photo{border-radius:var(--radius);border:2px solid var(--encre);box-shadow:6px 6px 0 var(--mangue);width:100%;aspect-ratio:4/5;object-fit:cover}
+.secteurs{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 24px}
+.secteurs .tag{background:var(--blanc)}
+.about-p{color:var(--gris);margin-bottom:16px}
+
+/* CONTACT */
+.contact{text-align:center;background:#FBF9FD;border-top:1px solid var(--trait)}
+.contact h2{margin-bottom:.4em}
+.contact p{color:var(--gris);max-width:36em;margin:0 auto 32px}
+.hero-cta.center{justify-content:center}
+footer{border-top:1px solid var(--trait);padding:28px 0;font-size:.85rem;color:var(--gris)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+
+@media (max-width:900px){
+  .hero-grid,.apropos-grid{grid-template-columns:1fr}
+  .exp-grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .odr{grid-template-columns:1fr}
+  .campagne{transform:none}
+  .nav-links{display:none}
+}
+@media (max-width:560px){
+  .exp-grid,.steps{grid-template-columns:1fr}
+  section{padding:64px 0}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-in">
+    <a class="logo" href="#top">Sika<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#expertises">Champ d'action</a></li>
+      <li><a href="#methode">Méthode</a></li>
+      <li><a href="#cas">Études de cas</a></li>
+      <li><a href="#apropos">À propos</a></li>
+    </ul>
+    <a class="btn sm" href="#contact">Me contacter</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Communication &amp; marketing digital orientés performance</span>
+      <h1>De l'attention à l'action : <em>en résultats mesurables</em>.</h1>
+      <p class="lead">Communication digitale, création de contenus, événementiel et relations : je conçois et pilote des dispositifs qui fédèrent les audiences et génèrent des résultats mesurables, de la création de contenus à l'acquisition.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#cas">Voir mes résultats</a>
+        <a class="btn ghost" href="portfolio-sika-hermina-codjia.pdf" target="_blank" rel="noopener"
+           onclick="gtag('event','download_portfolio',{'file_name':'portfolio-pdf','source':'hero'});">Télécharger le portfolio (PDF)</a>
+      </div>
+    </div>
+
+    <aside class="campagne" aria-label="Résultats clés">
+      <h3>Sika — bilan de performance</h3>
+      <div class="kpis">
+        <div class="kpi"><b data-count="4500">0</b><span>leads visiteurs générés en 8 semaines (Salon Gourmet Sélection)</span></div>
+        <div class="kpi"><b data-count="70">0</b><span>leads B2B exposants (Salon Gourmet Sélection)</span></div>
+        <div class="kpi"><b data-count="157" data-suffix="&nbsp;%">0</b><span>de croissance Instagram en organique (Salon du Fromage)</span></div>
+        <div class="kpi"><b data-count="5000" data-suffix="+">0</b><span>abonnés gagnés en 12 mois (Orphéopolis)</span></div>
+      </div>
+      <div class="dispo"><span class="dot" aria-hidden="true"></span> Disponible immédiatement · CDI / CDD</div>
+    </aside>
+  </div>
+</header>
+
+<!-- CHAMP D'ACTION -->
+<section class="exp" id="expertises">
+  <div class="wrap">
+    <span class="eyebrow">Terrain de jeu</span>
+    <h2>Mon champ d'action</h2>
+    <div class="exp-grid">
+      <div class="card"><span class="pictos">🎯</span><h3>Stratégie de communication</h3><p>Plan de communication, lignes éditoriales, objectifs et indicateurs : une stratégie claire, du cadrage au pilotage.</p></div>
+      <div class="card"><span class="pictos">📣</span><h3>Réseaux sociaux &amp; communautés</h3><p>Animation, modération et engagement : construire et fidéliser une audience autour d'une marque ou d'une cause.</p></div>
+      <div class="card"><span class="pictos">✍️</span><h3>Création de contenus</h3><p>Articles, vidéos, visuels et capsules, adaptés à chaque canal et à chaque étape du parcours.</p></div>
+      <div class="card"><span class="pictos">💰</span><h3>Publicité payante &amp; amplification</h3><p>Amplification des contenus sur Meta Ads et Google Ads, pilotée par la performance.</p></div>
+      <div class="card"><span class="pictos">🎪</span><h3>Événementiel &amp; relations</h3><p>Coordination, couverture live, relations médias et partenariats : créer des moments fédérateurs.</p></div>
+      <div class="card"><span class="pictos">✉️</span><h3>E-mailing &amp; relation</h3><p>Segmentation, automatisation et storytelling pour garder le lien avec la communauté.</p></div>
+      <div class="card wide"><span class="pictos">🧰</span><h3>Environnement &amp; outils</h3><p>GA4 · Google Tag Manager · Meta Ads · Google Ads · Salesforce · Typeform · WordPress · Sitecore · SharePoint · Semrush · Power BI · Excel</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- MÉTHODE -->
+<section class="methode" id="methode">
+  <div class="wrap">
+    <span class="eyebrow">Ma méthode</span>
+    <h2>De l'objectif au résultat, une boucle continue</h2>
+    <div class="steps">
+      <div class="step"><h3>Écouter</h3><p>Audit, analyse des audiences et des enjeux : comprendre la marque, sa parole et ses communautés.</p></div>
+      <div class="step"><h3>Structurer</h3><p>Plan de communication, ligne éditoriale, canaux : un cadre clair pour l'action quotidienne.</p></div>
+      <div class="step"><h3>Produire</h3><p>Création, publication, animation, couverture terrain : faire vivre la stratégie au jour le jour.</p></div>
+      <div class="step"><h3>Adapter</h3><p>Mesure, analyses, recommandations : apprendre de ce qui a porté et faire évoluer le dispositif.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ÉTUDES DE CAS -->
+<section class="cas" id="cas">
+  <div class="wrap">
+    <span class="eyebrow">Études de cas</span>
+    <h2>Des campagnes, des chiffres, des enseignements</h2>
+
+    <!-- CAS 1 : Orphéopolis -->
+    <article id="orpheopolis">
+      <div class="meta">
+        <span class="tag secteur">Associatif · Cause</span>
+        <span class="tag">Communication</span>
+        <span class="tag">Vidéo</span>
+        <span class="tag">Nov. 2022 – juin 2024</span>
+      </div>
+      <h3>Orphéopolis — +5 000 abonnés en 12 mois, et une cause qui trouve son public</h3>
+      <div class="odr">
+        <div>
+          <h4>Contexte &amp; objectif</h4>
+          <p>Orphéopolis, association reconnue d'utilité publique, accompagne les orphelins de la Police nationale. Mission : élaborer le plan de communication digitale, faire connaître la cause au-delà du cercle institutionnel et fédérer une communauté durable autour d'elle.</p>
+        </div>
+        <div>
+          <h4>Dispositif</h4>
+          <ul>
+            <li>Plan de communication digitale annuel et animation multicanale</li>
+            <li>8 capsules vidéo produites de A à Z : scénarisation, prise de vue, montage et diffusion</li>
+            <li>Animation des réseaux sociaux, 2 à 3 fois par semaine</li>
+            <li>Stratégie de collecte ciblée et relations médias</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Résultats</h4>
+          <div class="resultats">
+            <div class="res"><b>+5 000</b><span>abonnés en 12 mois</span></div>
+            <div class="res"><b>12 %</b><span>d'engagement moyen</span></div>
+            <div class="res"><b>8</b><span>capsules vidéo produites</span></div>
+            <div class="res"><b>+15 %</b><span>de collecte de dons</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="proof">↳ Exemple de capsule vidéo : <a href="https://www.instagram.com/tv/CkxqkzarFtd/" target="_blank" rel="noopener">instagram.com/tv/CkxqkzarFtd</a></p>
+      <p class="lecon"><strong>Ce que j'en retiens :</strong> dans l'associatif, l'engagement se gagne avec des récits incarnés et sincères, et c'est cet engagement, entretenu dans la durée, qui se transforme en dons.</p>
+    </article>
+
+    <!-- CAS 2 : Salon du Fromage -->
+    <article id="fromage">
+      <div class="meta">
+        <span class="tag secteur">Food · Événementiel</span>
+        <span class="tag">Réseaux sociaux</span>
+        <span class="tag">Contenu organique</span>
+        <span class="tag">2025–2026</span>
+      </div>
+      <h3>Salon du Fromage &amp; des Produits Laitiers — +157 % d'abonnés Instagram en organique</h3>
+      <div class="odr">
+        <div>
+          <h4>Contexte &amp; objectif</h4>
+          <p>Animer les communautés Facebook et Instagram du salon entre deux éditions et amorcer la promotion de l'édition 2026, sans budget média.</p>
+        </div>
+        <div>
+          <h4>Dispositif</h4>
+          <ul>
+            <li>Portraits d'artisans fromagers, contenus pédagogiques sur la filière</li>
+            <li>Formats événementiels à fort partage : annonces de date, rétrospective, vœux visuels</li>
+            <li>Analyse hebdomadaire des contenus et ajustements sur les formats gagnants</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Résultats</h4>
+          <div class="resultats">
+            <div class="res"><b>+157 %</b><span>d'abonnés Instagram (+278)</span></div>
+            <div class="res"><b>955</b><span>interactions Instagram</span></div>
+            <div class="res"><b>66,6 K</b><span>vues cumulées Facebook + Instagram</span></div>
+            <div class="res"><b>+11,5 %</b><span>d'abonnés Facebook</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="lecon"><strong>Ce que j'en retiens :</strong> sur les salons, les photos de visiteurs sillonnant les stands ont mieux fonctionné que les visuels génériques : une communication incarnée capte davantage l'attention.</p>
+    </article>
+
+    <!-- CAS 3 : Salon Gourmet Sélection -->
+    <article id="gourmet">
+      <div class="meta">
+        <span class="tag secteur">Événementiel · Food B2B</span>
+        <span class="tag">Acquisition</span>
+        <span class="tag">Publicité payante</span>
+        <span class="tag">Janvier – août 2025</span>
+      </div>
+      <h3>Salon Gourmet Sélection — 4 500 visiteurs générés en 8 semaines</h3>
+      <div class="odr">
+        <div>
+          <h4>Contexte &amp; objectif</h4>
+          <p>Salon B2B de l'épicerie fine : 350 exposants, 4 500 visiteurs professionnels. Mission : acquérir 4 500 leads visiteurs et 70 leads exposants en 8 semaines via la publicité payante.</p>
+        </div>
+        <div>
+          <h4>Dispositif</h4>
+          <ul>
+            <li>Rédaction et intégration d'une page de destination exposants dédiée à la campagne Performance Max, avec formulaire Typeform connecté à Salesforce</li>
+            <li>Pilotage des campagnes payantes avec l'agence partenaire : tableau de bord Salesforce, optimisation hebdomadaire</li>
+            <li>Optimisation SEO des pages « Exposer » et déploiement de la stratégie de contenu</li>
+            <li>Activations : posts LinkedIn, vidéos teasers, parrainage visiteurs</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Résultats</h4>
+          <div class="resultats">
+            <div class="res"><b>4 500</b><span>leads visiteurs</span></div>
+            <div class="res"><b>83,8&nbsp;€</b><span>de CPA</span></div>
+            <div class="res"><b>70</b><span>leads B2B exposants</span></div>
+            <div class="res"><b>300</b><span>leads visiteurs organiques</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="proof">↳ Landing page : <a href="https://www.salon-gourmet-selection.com/fr-FR/LP-Exposant/landing-pmax" target="_blank" rel="noopener">salon-gourmet-selection.com/…/landing-pmax</a></p>
+      <p class="lecon"><strong>Ce que j'en retiens :</strong> une acquisition performante repose sur l'alignement entre la page de destination, la campagne et le CRM. Chaque lead doit être traçable du clic jusqu'à l'équipe commerciale.</p>
+    </article>
+
+    <!-- CAS 4 : Vivoptim (cas pratique) -->
+    <article id="vivoptim">
+      <div class="meta">
+        <span class="tag secteur">Santé · Prévention</span>
+        <span class="tag">Cas pratique</span>
+        <span class="tag">Landing page</span>
+        <span class="tag">Display &amp; emailing</span>
+      </div>
+      <h3>Vivoptim Solutions — 1 message tenu de la bannière à la page</h3>
+      <div class="odr">
+        <div>
+          <h4>Contexte &amp; objectif</h4>
+          <p>Vivoptim Solutions propose un programme de santé personnalisé pris en charge par les mutuelles. Un sujet sensible, où la promesse doit rassurer sans promettre trop. Mission : concevoir les supports d'une campagne display et emailing pour transformer l'intérêt en inscriptions.</p>
+        </div>
+        <div>
+          <h4>Dispositif</h4>
+          <ul>
+            <li>Copywriting de la page : promesse bénéfice (« Retrouvez votre énergie »), preuve sociale (72 % des utilisateurs maintiennent leurs habitudes un an après), un seul appel à l'action</li>
+            <li>Blocs de réassurance à chaque étape : accompagnement humain, outils pratiques, prise en charge mutuelle</li>
+            <li>Bannière display 300 × 250 écrite dans la continuité de la page</li>
+            <li>Spécifications d'intégration au pixel près</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Supports</h4>
+          <div class="resultats">
+            <div class="res"><b>Page</b><span>header, promesse et bloc service</span></div>
+            <div class="res"><b>300×250</b><span>bannière display</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="proof">↳ Voir les supports : <a href="https://www.canva.com/folder/FAHVbx73fR8" target="_blank" rel="noopener">canva.com/folder/FAHVbx73fR8</a></p>
+      <p class="lecon"><strong>Ce que j'en retiens :</strong> sur un sujet santé, la cohérence du message d'un support à l'autre fait plus que le budget : bannière, page et formulaire doivent dire la même chose, avec les mêmes mots.</p>
+    </article>
+  </div>
+</section>
+
+<!-- À PROPOS -->
+<section id="apropos">
+  <div class="wrap apropos-grid">
+    <img class="photo" src="sika-portrait.jpg" alt="Portrait de Sika Hermina Codjia" width="768" height="1344">
+    <div>
+      <span class="eyebrow">À propos</span>
+      <h2>Enchantée, moi c'est Sika</h2>
+      <p class="about-p">Diplômée d'un MSc en Digital Communication &amp; Social Media (INSEEC Paris) et d'une licence de Lettres modernes (Rouen), je travaille à l'intersection de la communication, des réseaux sociaux et de la performance.</p>
+      <p class="about-p">Certifications : Meta Social Media Marketing · Facebook Ads · Google Digital Marketing · Google Data Analytics · Anglais B2.</p>
+      <p class="about-p">Je suis disponible immédiatement, en CDI ou en CDD, et ouverte à tous les secteurs. J'ai déjà travaillé dans l'événementiel, la food, l'associatif et la santé.</p>
+      <div class="secteurs">
+        <span class="tag">Événementiel</span>
+        <span class="tag">Food</span>
+        <span class="tag">Associatif</span>
+        <span class="tag">Santé</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <span class="eyebrow" style="justify-content:center">Contact</span>
+    <h2>Parlons résultats.</h2>
+    <p>Je suis ouverte à des postes en communication digitale et en marketing digital, en CDI ou en CDD.</p>
+    <div class="hero-cta center">
+      <a class="btn" href="mailto:hcodjia@gmail.com" onclick="gtag('event','click_contact',{'method':'email'});">M'écrire</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/sika-hermina-codjia" target="_blank" rel="noopener" onclick="gtag('event','click_contact',{'method':'linkedin'});">Mon LinkedIn</a>
+      <a class="btn ghost" href="portfolio-sika-hermina-codjia.pdf" target="_blank" rel="noopener" onclick="gtag('event','download_portfolio',{'file_name':'portfolio-pdf','source':'contact'});">Portfolio PDF</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Sika Hermina Codjia — Communication &amp; marketing digital orientés performance</span>
+    <span><a href="mailto:hcodjia@gmail.com">hcodjia@gmail.com</a> · <a href="https://www.linkedin.com/in/sika-hermina-codjia" target="_blank" rel="noopener">LinkedIn</a></span>
+  </div>
+</footer>
+
+<script>
+/* Compteurs animés des KPIs du hero */
+const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const counters = document.querySelectorAll('.kpi b');
+const animate = el => {
+  const target = parseInt(el.dataset.count, 10);
+  const suffix = el.dataset.suffix || '';
+  if (isNaN(target)) { el.textContent = el.dataset.count; return; }
+  if (reduce) { el.textContent = target.toLocaleString('fr-FR') + suffix; return; }
+  const dur = 1200, t0 = performance.now();
+  const tick = now => {
+    const p = Math.min((now - t0) / dur, 1);
+    el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))).toLocaleString('fr-FR') + suffix;
+    if (p < 1) requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+};
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { animate(e.target); io.unobserve(e.target); } });
+}, { threshold: .5 });
+counters.forEach(c => io.observe(c));
+</script>
+</body>
+</html>
