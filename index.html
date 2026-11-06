@@ -45,8 +45,8 @@ a{color:inherit}
 .eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--prune);display:inline-flex;align-items:center;gap:.6em}
 .eyebrow::before{content:"";width:22px;height:2px;background:var(--mangue)}
 h1,h2,h3{font-family:var(--display);line-height:1.15;font-weight:700}
-h2{font-size:clamp(1.5rem,3.2vw,2.2rem);margin:.5em 0 1.2em}
-section{padding:88px 0}
+h2{font-size:clamp(1.4rem,2.8vw,2rem);margin:.4em 0 .9em}
+section{padding:56px 0}
 
 /* NAV */
 nav{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--trait);z-index:50}
@@ -62,15 +62,14 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(
 .btn.sm{padding:9px 18px;font-size:.85rem;box-shadow:2px 2px 0 var(--encre)}
 
 /* HERO */
-.hero{padding:96px 0 72px;position:relative;overflow:hidden}
+.hero{padding:48px 0 40px;position:relative;overflow:hidden}
 .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center}
-.hero h1{font-size:clamp(2rem,4.6vw,3.4rem);margin:18px 0 22px}
+.hero h1{font-size:clamp(2rem,4.2vw,3rem);margin:14px 0 16px}
 .hero h1 em{font-style:normal;color:var(--corail);position:relative;white-space:nowrap}
 .hero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:.05em;height:.28em;background:var(--mangue);z-index:-1;border-radius:3px}
-.hero p.lead{font-size:1.12rem;color:var(--gris);max-width:34em;margin-bottom:32px}
+.hero p.lead{font-size:1.05rem;color:var(--gris);max-width:34em;margin-bottom:24px}
 .hero-cta{display:flex;gap:16px;flex-wrap:wrap}
-.campagne{background:var(--encre);color:var(--blanc);border-radius:var(--radius);padding:28px;position:relative;transform:rotate(1.5deg)}
-.campagne::before{content:"CAMPAGNE EN COURS";position:absolute;top:-14px;left:22px;background:var(--mangue);color:var(--encre);font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.12em;padding:5px 12px;border-radius:6px;border:2px solid var(--encre)}
+.campagne{background:var(--encre);color:var(--blanc);border-radius:var(--radius);padding:22px;position:relative;transform:rotate(1.5deg)}
 .campagne h3{font-size:1rem;margin:10px 0 18px}
 .kpis{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .kpi{border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:14px}
@@ -83,7 +82,7 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(
 /* EXPERTISES */
 .exp{background:#FBF9FD;border-top:1px solid var(--trait);border-bottom:1px solid var(--trait)}
 .exp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{background:var(--blanc);border:1px solid var(--trait);border-radius:var(--radius);padding:24px;transition:border-color .15s,transform .15s}
+.card{background:var(--blanc);border:1px solid var(--trait);border-radius:var(--radius);padding:18px;transition:border-color .15s,transform .15s}
 .card:hover{border-color:var(--corail);transform:translateY(-3px)}
 .card h3{font-size:.98rem;margin-bottom:10px}
 .card p{font-size:.9rem;color:var(--gris)}
@@ -95,18 +94,18 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(
 .methode{background:var(--encre);color:var(--blanc)}
 .methode .eyebrow{color:var(--mangue)}
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:step}
-.step{border:1px solid rgba(255,255,255,.18);border-radius:var(--radius);padding:24px;counter-increment:step}
+.step{border:1px solid rgba(255,255,255,.18);border-radius:var(--radius);padding:18px;counter-increment:step}
 .step::before{content:counter(step,decimal-leading-zero);font-family:var(--mono);color:var(--mangue);font-size:.9rem;font-weight:600}
 .step h3{font-size:1rem;margin:12px 0 8px}
 .step p{font-size:.88rem;color:rgba(255,255,255,.8)}
 
 /* CAS */
-.cas article{border:2px solid var(--encre);border-radius:var(--radius);padding:36px;margin-bottom:36px;box-shadow:6px 6px 0 var(--trait)}
+.cas article{border:2px solid var(--encre);border-radius:var(--radius);padding:26px 30px;margin-bottom:26px;box-shadow:6px 6px 0 var(--trait)}
 .cas .meta{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
 .tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:999px;border:1.5px solid var(--encre)}
 .tag.secteur{background:var(--corail);color:var(--blanc);border-color:var(--corail)}
-.cas h3{font-size:1.3rem;margin-bottom:22px}
-.odr{display:grid;grid-template-columns:1fr 1fr 1fr;gap:26px}
+.cas h3{font-size:1.2rem;margin-bottom:16px}
+.odr{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
 .odr h4{font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--prune);margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--mangue)}
 .odr p,.odr li{font-size:.95rem;color:#4A4458}
 .odr ul{list-style:none}
@@ -118,7 +117,7 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(
 .res span{font-size:.82rem;color:var(--gris)}
 .proof{font-family:var(--mono);font-size:.8rem;margin-top:16px;word-break:break-word}
 .proof a{color:var(--prune);border-bottom:1px solid var(--mangue);text-decoration:none}
-.lecon{margin-top:22px;background:#FFF6DE;border-left:4px solid var(--mangue);padding:14px 18px;border-radius:0 10px 10px 0;font-size:.95rem}
+.lecon{margin-top:16px;background:#FFF6DE;border-left:4px solid var(--mangue);padding:14px 18px;border-radius:0 10px 10px 0;font-size:.95rem}
 
 /* À PROPOS */
 .apropos-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
@@ -184,7 +183,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
     </div>
 
     <aside class="campagne" aria-label="Résultats clés">
-      <h3>Sika — bilan de performance</h3>
+      <h3>Bilan de performance</h3>
       <div class="kpis">
         <div class="kpi"><b data-count="4500">0</b><span>leads visiteurs générés en 8 semaines (Salon Gourmet Sélection)</span></div>
         <div class="kpi"><b data-count="70">0</b><span>leads B2B exposants (Salon Gourmet Sélection)</span></div>
